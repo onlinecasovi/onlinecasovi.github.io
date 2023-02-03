@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>User Card</title>
+        <link rel="stylesheet" href="./index.css"> 
+    </head>
+    <body>
+        <main>
+            <div class="card-wrapper">
+                <article class="card">
+                    <img class="card-img" src="./assets/images/avatar.png" alt="avatar">
+                    <h2 class="card-title">Jane Doe</h2>
+                    <h3 class="card-subtitle">Frontend Developer</h3>
+                    <div class="card-menu mt-2">
+                        <div class="card-menu-item">
+                            <img class="card-icon" src="./assets/icons/smile.png" alt="smile-icon">
+                            <p>Set a status</p>
+                        </div>
+                        <div class="card-menu-item">
+                            <img class="card-icon" src="./assets/icons/pencil.png" alt="pencil-icon">
+                            <p>Edit profile</p>
+                        </div>
+                        <div class="card-menu-item" id="menuToggle">
+                            <img class="card-icon" src="./assets/icons/dots.png" alt="dots-icon">
+                            <p>More</p>
+                        </div>
+                    </div>
+                    <div class="menu-list-container" id="menu">
+                        <ul class="menu-list">
+                            <li class="menu-item"><a class="menu-link" href="#">Login</a></li>
+                            <li class="menu-item"><a class="menu-link"  href="#">Join</a></li>
+                            <li class="menu-item"><a class="menu-link"  href="#">Change Language</a></li>
+                            <li class="menu-item"><a class="menu-link"  href="#">Image & Video API</a></li>
+                            <li class="menu-item"><a class="menu-link"  href="#">Apps & Plugins</a></li>
+                            <li class="menu-item"><a class="menu-link"  href="#">FAQ</a></li>
+                            <li class="menu-item"><a class="menu-link"  href="#">Image & Video API</a></li>
+                            <li class="menu-item"><a class="menu-link"  href="#">Inprint & Terms</a></li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </main>
+        <script src="./index.js"></script>
+    </body>
+</html>

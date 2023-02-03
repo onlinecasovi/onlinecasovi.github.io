@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot,
+thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer,
+header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+  background-color: #ECF0FC;  
+}
+
+h2, .h2 {
+    font-size: 24px;
+}
+
+h3, .h3 {
+    font-size: 18px;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+.mt-2 {
+    margin-top: 2rem;
+}
+.card-wrapper {
+    max-width: 480px;
+    margin: 72px auto;
+}
+.card {
+    background: #FFFFFF;
+    padding: 12px 24px;
+    text-align: center;
+    box-shadow: 0px 44px 88px #D2DBF5;
+    border-radius: 24px;
+    position: relative;
+}
+
+.card-img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    background-color: #ECF0FC;
+    border-radius: 50%;
+    border: 4px solid #ECF0FC;
+}
+
+
+.card-title {
+    font-weight: 700;
+    color: #120C35;
+}
+
+.card-subtitle {
+    font-weight: 500;
+    color: #120C35;
+}
+
+.card-menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+}
+
+.card-menu-item {
+    border: 1px solid #C2CDEF;
+    border-radius: 16px;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.card-menu-item * {
+    pointer-events: none;
+}
+
+.menu-list-container {
+    position: absolute;
+    top: 50%;
+    right: -176px;
+    opacity: 0;
+}
+.menu-list-container.active {
+    opacity: 1;
+}
+.card-icon {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+}
+
+.menu-list {
+    background: #120C35;
+    border-radius: 24px;
+    color: #FFFFFF;
+    padding: 1rem;
+    text-align: left;
+}
+.menu-item {
+    padding: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.menu-item:hover {
+    background: #2D2559;
+}
+.menu-link {
+    text-decoration: none;
+    color: inherit;
+}
+
